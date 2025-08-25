@@ -38,7 +38,7 @@ phytool read end0/0/0x1f
 # LED1平时熄灭，有TX/RX流量时闪烁
 phytool write end0/0/0x1e 0xb8 && phytool write end0/0/0x1f 0x2600
 
-# 10/100/1000Mbps link时LED2常量
+# 10/100/1000Mbps link时LED2常亮
 phytool write end0/0/0x1e 0xb9 && phytool write end0/0/0x1f 0x0070
 ```
 
